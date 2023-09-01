@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda:wght@800&family=Mukta&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1d3e53;
+}
+/*
+colores
+#1d3e53
+#410057
+#77ABB7
+
+
+las tipografias
+font-family: 'Coda', cursive;
+font-family: 'Mukta', sans-serif;
+**/
+/** ---------------------------------inicio de main y primera  seccion index------------------**/
+.navbar{
+    background-color: #77abb7;
+    list-style:none;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.navbar li a{
+    color: #410057;
+    text-decoration: none;
+    background-color: #77abb7;
+    font-family: 'Mukta', sans-serif;
+    font-size: 2.5rem;
+}
+.section-principal{
+        background-color: black;
+        width: 100%;
+        height:30rem ;
+        background-image: url(../assets/img/fondosoul.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60%;
+        text-align:center;
+        font-size: 18.75rem;
+        color: #410057;
+        font-family: 'Coda', cursive;
+        padding: 0rem 0rem 36rem 0rem;
+}
+.section-secundaria h2{
+    background-color: #1d3e53;
+    font-family: 'Mukta', sans-serif;
+    font-size: 5rem;
+    color: #410057;
+    text-align: center;
+}
+.section-secundaria{
+    background-color: #1d3e53;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.875rem;
+    color: #410057;
+}
+.cards-info{
+    width: 21.875rem;
+    background-color: #77abb7;
+    padding: 10px 20px;
+    padding: 1.25rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4f6064;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: .625rem .3125rem 0rem .625rem;
+}
+.footer{
+    background-color: #1d3e53;
+    text-align: center;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+}
+.redes{
+    text-align: end;
+}
+/*------------------------------Tienda---------------------------------------*/
+.section-ofertas {
+    background-color: #1d3e53;
+}
+.section-ofertas h1{
+    text-align: center;
+    background-color: #1d3e53;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    font-size: 5rem;
+}
+.section-ofertas h2{
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #1d3e53;
+}
+.categorias{
+    background-color: #1d3e53;
+    font-family: 'Mukta', sans-serif;
+}
+.categorias h3{
+    font-size: 5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+}
+.categorias-especificas{
+    font-size: 1.875rem;
+    font-family: 'Mukta', sans-serif;
+}
+/*------------------------------Nosotros-----------------------------------------*/
+.informacion-soul h1{
+    font-size: 5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #1d3e53;
+}
+.informacion-soul p{
+    background-color: #1d3e53;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1.875rem;
+}
+.informacion-soul{
+    width: 40rem;
+    background-color: #77abb7;
+    padding: 10px 20px;
+    padding: 1.25rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4f6064;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 0rem .3125rem 0rem .625rem;
+}
+.cuerpo{
+    background-color: #1d3e53;
+}
+/*--------------------------soporte----------------------------*/
+.titulo-ayuda{
+    width: 30rem;
+    border-style: hidden;
+    border-color: #1d3e53;
+    border-radius: .5rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 0rem .3125rem 0rem .625rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.titulo-ayuda h1{
+    font-size: 3rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #1d3e53;
+}
+.titulo-ayuda h2{
+    font-size: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #1d3e53;
+}
+.cuerpo-ayuda{
+    background-color: #1d3e53;
+}
+.imagen-ayuda h3{
+    font-size: 3rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #1d3e53;
+}
+.imagen-ayuda p{
+    font-size: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #1d3e53;
+    border-style: hidden;
+}
+/*------------------------------------------soul pass-----------------*/
+.soulpass-principal{
+    background-color: #1d3e53;
+    font-size: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+}
+.soulpass-uno{
+    background-image: url(../assets/img/pass-uno.jpg);
+    width: 100%;
+    height:30rem ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    text-align:start;
+    margin-bottom: 3rem;
+}
+.soulpass-dos{
+    background-image: url(../assets/img/pass-dos.jpg);
+    width: 100%;
+    height:30rem ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    text-align:end;
+}
+.soulpass-tres{
+    background-image: url(../assets/img/pass-tres.jpg);
+    width: 100%;
+    height:30rem ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30%;
+    text-align:start;
+    margin-top: 3rem;
+}
+.boton-soulpass{
+    text-align: center;
+    color: #410057;
+}
+
+.boton-soulpass :hover{
+    color: #410057;
+    background-color: #1d3e53;
+}
