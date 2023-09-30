@@ -380,7 +380,7 @@ font-family: 'Mukta', sans-serif;
 }
 .soulpass-uno h1:hover::after{
     text-shadow: #410057c2;
-    content: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nulla, molestiae fuga voluptatibus voluptas numquam dolor officiis consequatur dolorum atque magnam, labore illum modi aspernatur sapiente aliquam assumenda ut nam!";
+    content: "> Es una experiencia unica para poder disfrutar de SOUL en su 100%, brindando beneficios unicos y pudiendo jugar cientos de juegos directamente desde tu navegador, sin tener que descargarlos. Finalmente para disfrutar de todo esto, solo se necesitara una suscripcion mensual y ya podras comenzar a disfrutar todo el potencial que SOUL Pass te brinda";
     color:#410057;
     cursor:text;
     font-size: 1.5rem;
@@ -397,7 +397,7 @@ font-family: 'Mukta', sans-serif;
 }
 .soulpass-dos h2:hover::after{
     text-shadow: #410057c2;
-    content: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nulla, molestiae fuga voluptatibus voluptas numquam dolor officiis consequatur dolorum atque magnam, labore illum modi aspernatur sapiente aliquam assumenda ut nam!";
+    content: "> Es muy sencillo, solamente ingresas a SOUL Pass, inicias sesion y ya podras disfrutar de cientos de juegos que estan disponibles en nuestro catalo para que puedas jugarlos en ese preciso momento o descargarlos para poder jugarlos sin depender de conexion a internet.";
     color:#410057;
     cursor:text;
     font-size: 1.5rem;
@@ -415,7 +415,7 @@ font-family: 'Mukta', sans-serif;
 }
 .soulpass-tres h3:hover::after{
     text-shadow: #410057c2;
-    content: ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, nulla, molestiae fuga voluptatibus voluptas numquam dolor officiis consequatur dolorum atque magnam, labore illum modi aspernatur sapiente aliquam assumenda ut nam!";
+    content: "> Puedes acceder a nuestro amplio catalogo de videojuegos jugando en la nube, descargarlos o acceder a clasicos del gaming a un solo clic. ¡No es necesario que tengas una computadora de ultima generacion para disfrutar de toda la emocion e inmersion de los videojuegos de hoy con SOUL Pass puedes hacerlo desde donde sea cuando sea!";
     color:#410057;
     cursor:text;
     font-size: 1.5rem;
@@ -816,6 +816,11 @@ font-family: 'Mukta', sans-serif;
     background-color: #77abb7;
     grid-column: 2/2;
 }
+.imagen-ayuda img {
+    width: 29rem;
+    padding-left: 1.7rem;
+    margin-bottom: 1rem;
+}
 .formulario-contenido{
     display: grid;
     font-size: 1rem;
@@ -915,6 +920,82 @@ font-family: 'Mukta', sans-serif;
         box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
         margin: .625rem .3125rem 0rem .625rem;
     }
+/*--------------------------soporte----------------------------*/
+.titulo-ayuda{
+    width: 18rem;
+    height: 40rem;
+    border-style: hidden;
+    border-color: #1d3e53;
+    border-radius: 0rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 3rem .3125rem 0rem .625rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    grid-column: 1/2;
+}
+.titulo-ayuda h1{
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.titulo-ayuda h2{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.cuerpo-ayuda{
+    background-color: #1d3e53;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.imagen-ayuda h3{
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.imagen-ayuda p{
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    border-style: hidden;
+}
+.imagen-ayuda{
+    padding: 10px 20px 0px 20px;
+    border-width: 2px;
+    border-style:double;
+    border-color: #000000;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(3, 0, 0, 0.169);
+    margin: 3rem .3125rem 1rem .625rem;
+    text-align: center;
+    background-color: #77abb7;
+    grid-column: 2/2;
+}
+.imagen-ayuda img {
+    width: 25rem;
+    padding-left: 1.7rem;
+    margin-bottom: 1rem;
+}
+.formulario-contenido{
+    display: grid;
+    font-size: 1rem;
+    text-align: justify;
+    height: 25rem;
+    width: 15rem;
+    margin-top: 2rem;
+}
 }
 /***********************media 768************************/
 /****************index-inicio***************/
@@ -1086,7 +1167,7 @@ font-family: 'Mukta', sans-serif;
     border-color: #1d3e53;
     border-radius: 0rem;
     box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
-    margin: 3rem .3125rem 0rem .625rem;
+    margin: 3rem .3125rem 0rem 5rem;
     font-size: 1rem;
     color: #410057;
     font-family: 'Mukta', sans-serif;
@@ -1094,17 +1175,19 @@ font-family: 'Mukta', sans-serif;
     grid-row: 2/2;
 }
 .titulo-ayuda h1{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #410057;
     font-family: 'Mukta', sans-serif;
     background-color: #77abb7;
+    text-align: center;
 }
 .titulo-ayuda h2{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-top: 2rem;
     color: #410057;
     font-family: 'Mukta', sans-serif;
     background-color: #77abb7;
+    text-align: center;
 }
 .cuerpo-ayuda{
     background-color: #1d3e53;
@@ -1149,6 +1232,7 @@ font-family: 'Mukta', sans-serif;
     height: 20rem;
     width: 35rem;
     margin-top: 2rem;
+    margin-left: 3rem;
 }
 }
 /***********************media 718************************/
@@ -1243,6 +1327,88 @@ font-family: 'Mukta', sans-serif;
         box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
         margin: .625rem .3125rem 0rem 2rem;
     }
+/*--------------------------soporte----------------------------*/
+.titulo-ayuda{
+    width: 32rem;
+    height: 40rem;
+    border-style: hidden;
+    border-color: #1d3e53;
+    border-radius: 0rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 3rem .3125rem 0rem 2rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    grid-row: 2/2;
+}
+.titulo-ayuda h1{
+    font-size: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    text-align: center;
+}
+.titulo-ayuda h2{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    text-align: center;
+}
+.cuerpo-ayuda{
+    background-color: #1d3e53;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.imagen-ayuda h3{
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.imagen-ayuda p{
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    border-style: hidden;
+}
+.imagen-ayuda{
+    width: 32rem;
+    display: grid;
+    padding: 10px 20px 0px 20px;
+    border-width: 2px;
+    border-style:double;
+    border-color: #000000;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(3, 0, 0, 0.169);
+    margin: 3rem .3125rem 1rem 2rem;
+    text-align: center;
+    background-color: #77abb7;
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
+.imagen-ayuda img {
+    width: 26rem;
+    padding-left: 1.7rem;
+    margin-bottom: 1rem;
+}
+.formulario-contenido{
+    display: grid;
+    font-size: 1rem;
+    text-align: justify;
+    height: 20rem;
+    width: 23.5rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
 }
 /***********************media 550************************/
 /****************index-inicio***************/
@@ -1336,7 +1502,89 @@ font-family: 'Mukta', sans-serif;
         box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
         margin: .625rem .3125rem 0rem 2rem;
     }
+/*--------------------------soporte----------------------------*/
+.titulo-ayuda{
+    width: 23.5rem;
+    height: 40rem;
+    border-style: hidden;
+    border-color: #1d3e53;
+    border-radius: 0rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 3rem .3125rem 0rem 2rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    grid-row: 2/2;
 }
+.titulo-ayuda h1{
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.titulo-ayuda h2{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.cuerpo-ayuda{
+    background-color: #1d3e53;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.imagen-ayuda h3{
+    width: 20rem;
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.imagen-ayuda p{
+    width: 20rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    border-style: hidden;
+}
+.imagen-ayuda{
+    width: 23.5rem;
+    display: grid;
+    padding: 10px 20px 0px 20px;
+    border-width: 2px;
+    border-style:double;
+    border-color: #000000;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(3, 0, 0, 0.169);
+    margin: 3rem .3125rem 1rem 2rem;
+    text-align: center;
+    background-color: #77abb7;
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
+.imagen-ayuda img {
+    width: 20rem;
+    padding-left: 1.7rem;
+    margin-bottom: 1rem;
+}
+.formulario-contenido{
+    display: grid;
+    font-size: 1rem;
+    text-align: justify;
+    height: 20rem;
+    width: 16rem;
+    margin-top: 2rem;
+}
+}
+
 /***********************media 425************************/
 /****************index-inicio***************/
 @media(max-width:425px){
@@ -1498,7 +1746,89 @@ font-family: 'Mukta', sans-serif;
     color: #410057;
     background-color:#77abb7;
 }
+/*--------------------------soporte----------------------------*/
+.titulo-ayuda{
+    width: 23.5rem;
+    height: 40rem;
+    border-style: hidden;
+    border-color: #1d3e53;
+    border-radius: 0rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 3rem .3125rem 0rem 1rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    grid-row: 2/2;
 }
+.titulo-ayuda h1{
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.titulo-ayuda h2{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.cuerpo-ayuda{
+    background-color: #1d3e53;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.imagen-ayuda h3{
+    width: 20rem;
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.imagen-ayuda p{
+    width: 20rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    border-style: hidden;
+}
+.imagen-ayuda{
+    width: 23.5rem;
+    display: grid;
+    padding: 10px 20px 0px 20px;
+    border-width: 2px;
+    border-style:double;
+    border-color: #000000;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(3, 0, 0, 0.169);
+    margin: 3rem .3125rem 1rem 1rem;
+    text-align: center;
+    background-color: #77abb7;
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
+.imagen-ayuda img {
+    width: 20rem;
+    padding-left: 1.7rem;
+    margin-bottom: 1rem;
+}
+.formulario-contenido{
+    display: grid;
+    font-size: 1rem;
+    text-align: justify;
+    height: 20rem;
+    width: 16rem;
+    margin-top: 2rem;
+}
+}
+
 /***********************media 391***********************/
 /****************index-inicio***************/
 @media(max-width:391px){
@@ -1592,7 +1922,94 @@ font-family: 'Mukta', sans-serif;
         box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
         margin: .625rem .3125rem 0rem .625rem;
     }
+
+/*--------------------------soporte----------------------------*/
+.titulo-ayuda{
+    width: 17rem;
+    height: 40rem;
+    border-style: hidden;
+    border-color: #1d3e53;
+    border-radius: 0rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 3rem .3125rem 0rem 2rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    grid-row: 2/2;
 }
+.titulo-ayuda h1{
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    text-align: center;
+}
+.titulo-ayuda h2{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    text-align: center;
+}
+.cuerpo-ayuda{
+    background-color: #1d3e53;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.imagen-ayuda h3{
+    width: 15rem;
+    font-size: 1.3rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.imagen-ayuda p{
+    font-size: 1rem;
+    width: 15rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    border-style: hidden;
+}
+.imagen-ayuda{
+    display: grid;
+    width: 19rem;
+    padding: 10px 20px 0px 20px;
+    border-width: 2px;
+    border-style:double;
+    border-color: #000000;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(3, 0, 0, 0.169);
+    margin: 3rem .3125rem 1rem 1rem;
+    text-align: center;
+    background-color: #77abb7;
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
+.imagen-ayuda img {
+    width: 15rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+.formulario-contenido{
+    display: grid;
+    font-size: 1rem;
+    text-align: justify;
+    height: 20rem;
+    width: 15rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 1rem;
+}
+}
+
 /***********************media 320***********************/
 /****************index-inicio***************/
 @media(max-width:320px){
@@ -1773,5 +2190,90 @@ font-family: 'Mukta', sans-serif;
 .boton-soulpass :active{
     color: #410057;
     background-color:#77abb7;
+}
+/*--------------------------soporte----------------------------*/
+.titulo-ayuda{
+    width: 17rem;
+    height: 40rem;
+    border-style: hidden;
+    border-color: #1d3e53;
+    border-radius: 0rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(0, 0, 0, 0.169);
+    margin: 3rem .3125rem 0rem 2rem;
+    font-size: 1rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    grid-row: 2/2;
+}
+.titulo-ayuda h1{
+    font-size: 1.5rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    text-align: center;
+}
+.titulo-ayuda h2{
+    font-size: 1rem;
+    margin-top: 2rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    text-align: center;
+}
+.cuerpo-ayuda{
+    background-color: #1d3e53;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.imagen-ayuda h3{
+    width: 15rem;
+    font-size: 1.3rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+}
+.imagen-ayuda p{
+    font-size: 1rem;
+    width: 15rem;
+    color: #410057;
+    font-family: 'Mukta', sans-serif;
+    background-color: #77abb7;
+    border-style: hidden;
+}
+.imagen-ayuda{
+    display: grid;
+    width: 19rem;
+    padding: 10px 20px 0px 20px;
+    border-width: 2px;
+    border-style:double;
+    border-color: #000000;
+    border-radius: .625rem;
+    box-shadow: -0.625rem -0.625rem  .9375rem rgba(3, 0, 0, 0.169);
+    margin: 3rem .3125rem 1rem .625rem;
+    text-align: center;
+    background-color: #77abb7;
+    grid-column: 1/1;
+    grid-row: 1/2;
+}
+.imagen-ayuda img {
+    width: 15rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+}
+.formulario-contenido{
+    display: grid;
+    font-size: 1rem;
+    text-align: justify;
+    height: 20rem;
+    width: 15rem;
+    margin-top: 2rem;
+    text-align: center;
+    margin-left: 1rem;
 }
 }
